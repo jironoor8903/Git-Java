@@ -1,0 +1,84 @@
+# Check that adding nonexistent file gets correct error.
+I prelude1.inc
+> add jiro.txt
+File does not exist.
+<<<
+> add jiro.txt
+File does not exist.
+<<<
+> add james.txt
+File does not exist.
+<<<
+> add bob.txt
+File does not exist.
+<<<
+> add yes.txt
+File does not exist.
+<<<
+> add mom.txt
+File does not exist.
+<<<
+> add dad.txt
+File does not exist.
+<<<
+> add daddy.txt
+File does not exist.
+<<<
+> add bear.txt
+File does not exist.
+<<<
+> add jiro.txt
+File does not exist.
+<<<
+> add jiro.txt
+File does not exist.
+<<<
+> add james.txt
+File does not exist.
+<<<
+> add bob.txt
+File does not exist.
+<<<
+> add yes.txt
+File does not exist.
+<<<
+> add mom.txt
+File does not exist.
+<<<
+> add dad.txt
+File does not exist.
+<<<
+> add daddy.txt
+File does not exist.
+<<<
+> add bear.txt
+File does not exist.
+<<<
+> add jiro.txt
+File does not exist.
+<<<
+> add jiro.txt
+File does not exist.
+<<<
+> add james.txt
+File does not exist.
+<<<
+> add bob.txt
+File does not exist.
+<<<
+> add yes.txt
+File does not exist.
+<<<
+> add mom.txt
+File does not exist.
+<<<
+> add dad.txt
+File does not exist.
+<<<
+> add daddy.txt
+File does not exist.
+<<<
+> add bear.txt
+File does not exist.
+<<<
+I blank-status.inc
